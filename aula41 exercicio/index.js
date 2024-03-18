@@ -1,11 +1,8 @@
-//escreva uma função que recebe 2 numeros e retorne o maior deles
-/* function max(x, y){
-if(x > y)return x; return y
-}
-console.log(max(10,40)) */
-
-function max(x,y){
-    return x > y ? x : y
-
-}
-console.log(max(10,50))
+//escreva uma função que receba 2 numeros e retorne o maior dele
+function maiorNumero(a,b){
+    if(a>b){
+        return `A é o maior numero ${a}`;
+    }else{
+        return `B é o maior numero ${b}`;
+    }}
+    console.log(maiorNumero(12, 2))
